@@ -6,8 +6,8 @@
    Tutorial Case
 
    Tables Style Sheet
-   Author: 
-   Date:   
+   Author: Millione Johnson
+   Date: 12/10/18  
 
    Filename:         dlr_tables.css
 
@@ -26,6 +26,8 @@ table.schedule {
 /* Table Cell Styles */
 table.schedule th, table.schedule td {
     border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
 }
 
 
@@ -46,12 +48,21 @@ table.schedule tfoot {
     color: white;
 }
 
+table.schedule thead tr {
+    height: 30px;
+}
+
+table.schedule tbody tr {
+    height: 40px;
+}
 
 /* Column Group Styles */
 col#firstCol {
     background: rgb(218, 210, 218);
+    width: 15%;
 }
 
 col.dayCols {
     background: rgb(255, 220, 255);
+    width: 12%;
 }
